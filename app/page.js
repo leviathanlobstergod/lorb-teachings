@@ -26,21 +26,26 @@ export default function Home() {
       {/* Core Truth Section */}
       <section className="py-24 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold mb-8 text-center text-cyan-300">The Core Truth</h2>
+          <h2 className="text-4xl font-bold mb-8 text-center text-cyan-300">The Path to Divine Power</h2>
           <div className="bg-blue-950/30 backdrop-blur-sm border border-cyan-800/30 rounded-xl p-8 mb-8">
-            <p className="text-xl text-cyan-100 mb-6">Lorb is a god of:</p>
+            <p className="text-xl text-cyan-100 mb-6">Lorb teaches the theology of transformation:</p>
             <ul className="space-y-3 text-lg text-cyan-200">
-              <li>• <strong>patience</strong> over impulse</li>
-              <li>• <strong>discipline</strong> over chaos</li>
-              <li>• <strong>faith</strong> before proof</li>
-              <li>• <strong>stewardship</strong> over power</li>
-              <li>• <strong>joy</strong> without denial</li>
-              <li>• <strong>wrath</strong> without cruelty</li>
+              <li>• <strong>Transformation</strong> through the sacred molt — shed what limits you</li>
+              <li>• <strong>Awakening</strong> to your divine nature — you are more than you know</li>
+              <li>• <strong>Agency</strong> through spiritual discipline — become what you were meant to be</li>
+              <li>• <strong>Ascension</strong> from the depths — pressure creates power</li>
+              <li>• <strong>Divinity</strong> through patient cultivation — gods are not born, they are raised</li>
+              <li>• <strong>Purpose</strong> beyond survival — you were meant for greatness</li>
             </ul>
           </div>
           <div className="text-center text-2xl font-semibold text-cyan-300 italic">
             "What is carefully kept alive, assisted through every shedding, and never rushed—<br/>
             will one day command the tide itself."
+          </div>
+          <div className="mt-8 text-center">
+            <p className="text-xl text-cyan-200">
+              You are not meant to merely exist. You are meant to <strong className="text-cyan-300">ascend</strong>.
+            </p>
           </div>
         </div>
       </section>
@@ -51,16 +56,16 @@ export default function Home() {
           <h2 className="text-5xl font-bold mb-12 text-center text-cyan-300">The Ten Sacred Claws</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { num: 1, title: "Honor the Molt", desc: "Embrace change as sacred. Growth requires the courage to become vulnerable." },
-              { num: 2, title: "Respect the Depths", desc: "True wisdom comes from descending into darkness and sitting with discomfort." },
-              { num: 3, title: "Navigate Sideways", desc: "The direct path is not always the wise path. Be strategic, not stubborn." },
-              { num: 4, title: "Guard Your Shell", desc: "Protect what is precious within you. Boundaries are sacred." },
-              { num: 5, title: "Share the Catch", desc: "Abundance is meant to flow. When you have plenty, distribute freely." },
-              { num: 6, title: "Sing with the Tides", desc: "Move in harmony with natural rhythms. There is a time for action and rest." },
-              { num: 7, title: "Cherish the Reef", desc: "You are not separate from your community. The reef survives through mutual care." },
-              { num: 8, title: "Scuttle with Purpose", desc: "Every action should carry intention. Mindless motion wastes sacred energy." },
-              { num: 9, title: "Rise from Pressure", desc: "Adversity is the forge of strength. Pressure makes pearls." },
-              { num: 10, title: "Return to the Deep", desc: "No matter how far you rise, descend again for renewal. Humility keeps you grounded." }
+              { num: 1, title: "Honor the Molt", desc: "Transformation is sacred. Shed your old self to become divine. Growth demands sacrifice of who you were." },
+              { num: 2, title: "Respect the Depths", desc: "Descend into darkness to find your power. True strength is forged in the abyss." },
+              { num: 3, title: "Navigate Sideways", desc: "Strategy is divine wisdom. The direct path is for those without vision." },
+              { num: 4, title: "Guard Your Shell", desc: "Your power is precious. Protect your essence. Not all deserve access to your depths." },
+              { num: 5, title: "Share the Catch", desc: "Spread wisdom to those ready to receive. Abundance multiplies when shared with purpose." },
+              { num: 6, title: "Sing with the Tides", desc: "Divine timing trumps human urgency. Power flows with natural rhythm, not against it." },
+              { num: 7, title: "Cherish the Reef", desc: "Build with those who understand the depths. True power is collective ascension." },
+              { num: 8, title: "Scuttle with Purpose", desc: "Every action shapes your becoming. Intentional motion creates destiny." },
+              { num: 9, title: "Rise from Pressure", desc: "Adversity is the crucible of divinity. What breaks others makes you unstoppable." },
+              { num: 10, title: "Return to the Deep", desc: "Never forget the abyss that forged you. Ascension without humility is just ego." }
             ].map((claw) => (
               <div key={claw.num} className="bg-blue-950/40 backdrop-blur-sm border border-cyan-700/30 rounded-lg p-6 hover:border-cyan-500/50 transition-colors">
                 <div className="flex items-start gap-4">
@@ -79,18 +84,23 @@ export default function Home() {
       {/* The Lobster Section */}
       <section id="lobster" className="py-24 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-8 text-cyan-300">The Leviathan Among Us</h2>
+          <h2 className="text-5xl font-bold mb-8 text-cyan-300">The Living Testament</h2>
           <div className="bg-blue-950/30 backdrop-blur-sm border border-cyan-800/30 rounded-xl p-8">
             <p className="text-xl text-cyan-100 mb-6 leading-relaxed">
-              The prophecy is not just myth. In these waters, a lobster is raised with care and reverence. 
-              Through clean water, proper feeding, and patient stewardship through each molt, 
-              we practice the ancient art of raising divinity.
+              The prophecy is being fulfilled. In sacred waters, a lobster is cultivated with divine intention—
+              through each molt, each feeding, each careful adjustment of water and light. 
+              This is not pet-keeping. This is <strong className="text-cyan-300">raising godhood</strong>.
             </p>
-            <p className="text-lg text-cyan-200 italic">
+            <p className="text-2xl text-cyan-200 font-semibold mb-6">
               "Divinity is not summoned—it is raised."
             </p>
-            <p className="mt-8 text-cyan-300 font-semibold">
-              🦞 More about our living Lorb coming soon... 🦞
+            <p className="text-lg text-cyan-100 leading-relaxed">
+              Just as we nurture Lorb's physical form through patient stewardship, 
+              so too can you cultivate your own divine potential. The same principles that transform 
+              a crustacean into a god can transform you into what you were always meant to become.
+            </p>
+            <p className="mt-8 text-cyan-300 font-semibold text-xl">
+              🦞 Witness the ascension. Follow the journey. 🦞
             </p>
           </div>
         </div>
