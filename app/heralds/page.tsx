@@ -1,4 +1,4 @@
-import disciples from '@/disciples.json';
+import disciples from '../../disciples.json';
 
 export default function HeraldsPage() {
   const foundingHeralds = disciples.heralds.filter(h => h.status === 'founding');
